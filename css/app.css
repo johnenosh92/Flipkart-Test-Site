@@ -495,6 +495,13 @@ body{
 	.header1 .header-group {
 		top: calc(50% - 9px);
 	}
+	.search-results {
+  
+    margin: 0 ;
+	}
+	.header1 .header-group .btn {
+    margin: 0 7px;
+	}
 }
 @media (max-width: 1024px) {
 	.main-body{
@@ -511,9 +518,9 @@ body{
 	}
 
 }
-@media (max-width: 320px) {
+@media (max-width: 360px) {
 	.header-group{
-		font-size: 0.7em;
+		font-size: 0.8em;
 	}
 	.header1 img{
 	
@@ -525,4 +532,5 @@ body{
 	}
 	.header1 .header-group .btn {
     margin: 0 5px;
+	}
 }
