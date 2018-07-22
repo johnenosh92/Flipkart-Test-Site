@@ -518,7 +518,7 @@ body{
 	}
 
 }
-@media (max-width: 360px) {
+@media (max-width: 376px) {
 	.header-group{
 		font-size: 0.8em;
 	}
@@ -531,6 +531,6 @@ body{
 		top:calc(50% - 20px);
 	}
 	.header1 .header-group .btn {
-    margin: 0 5px;
+    margin: 0 5px !important;
 	}
 }
