@@ -395,17 +395,17 @@ body{
 	display: inline-block;
 }
 .filters{
-		position: relative;
-		top:70px;
-		
-		display: none;
-		font-weight: 500;
-		background-color: white;
-		width: 100px;
-		text-align: center;
-		margin: auto;
-		padding: 10px;
-		box-shadow: 0 1px 1px rgba(0,0,0,0.12)
+	position: relative;
+	top:70px;
+	
+	display: none;
+	font-weight: 500;
+	background-color: white;
+	width: 100px;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.12)
 }
 .hidden-search{
 	display: none;
@@ -493,7 +493,7 @@ body{
 		max-width: 100%;
 	}
 	.header1 .header-group {
-		    top: calc(50% - 9px);
+		top: calc(50% - 9px);
 	}
 }
 @media (max-width: 1024px) {
@@ -503,8 +503,8 @@ body{
 	}
 	
 	.header2 .header-group {
-	min-width: 708px;
-    padding: 0 2%;
+		min-width: 708px;
+	    padding: 0 2%;
 	}
 	.header1 img {
 		padding:0 5px;
@@ -517,10 +517,12 @@ body{
 	}
 	.header1 img{
 	
-	width: 70px;
+		width: 70px;
 	}
 	.menu-button{
 		position: relative;
 		top:calc(50% - 20px);
 	}
+	.header1 .header-group .btn {
+    margin: 0 5px;
 }
